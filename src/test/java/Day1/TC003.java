@@ -1,17 +1,14 @@
 package Day1;
 
 import org.testng.annotations.Test;
-import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class TC001  extends LaunchBrowser{
+public class TC003  extends LaunchBrowser{
+	
+ 
 
-	
-	
-
-	
 	
 	@Test
 	public void url() {
@@ -33,8 +30,6 @@ public class TC001  extends LaunchBrowser{
 	@Test
 	public void addCart() {
 		System.out.println("add cart");
-		
-		Assert.fail("Fail...");
 	}
 	 
 	
@@ -51,5 +46,6 @@ public class TC001  extends LaunchBrowser{
 	}
  
 	
-	
+ 
+	 
 }
